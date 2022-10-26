@@ -3,6 +3,7 @@
 ### Templates modules included:
 
 - [IAM](./aws-iam) - Deploy the IAM roles.
+- [Glue](./aws-glue-job) - Deploy the Glue job.
 - [Redshift](./aws-redshift) - Deploy the Redshift Serverless.
 - [S3](./aws-s3) - Deploy S3 Bucket and upload files into.
 - [Sagemaker](./aws-sagemaker) - Deploy the Sagemaker with notebook.
