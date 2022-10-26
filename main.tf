@@ -21,7 +21,7 @@ module "aws-glue-job" {
   s3_bucket_name             = module.aws-s3.s3_bucket_name
   glue_job_file              = "glue_job_file.py"
   source_bucket              = "data-profiler-output" #rename source bucket
-  source_files               = "synthetic-islands/"   #rename source files
+  source_files               = "synthetic-islands"    #rename source files
   subnet_region_1            = module.common-connections.subnet_region_1
 }
 
