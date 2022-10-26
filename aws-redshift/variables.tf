@@ -8,11 +8,6 @@ variable "redshiftserverless_workgroup" {
   default = "ds-workgroup"
 }
 
-variable "redshift_db_url" {
-  type    = string
-  default = "jdbc:redshift://ds-workgroup.425768274696.eu-west-2.redshift-serverless.amazonaws.com:5439/ds_redshift_db"
-}
-
 variable "redshift_db_name" {
   type    = string
   default = "ds_redshift_db"

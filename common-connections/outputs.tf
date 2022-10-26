@@ -13,3 +13,7 @@ output "subnet_2" {
 output "subnet_3" {
   value = aws_subnet.subnet_3.id
 }
+
+output "subnet_region_1" {
+  value = var.subnet_region_1
+}
